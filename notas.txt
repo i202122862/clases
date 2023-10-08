@@ -1,0 +1,57 @@
+git config --global user.name
+
+git config --global user.mail
+
+
+ir a anel de control
+cuentas de usuario
+administrador de creencailes
+ubscargithub y allì aparcen los datos
+
+
+ahora puedo configurar
+
+
+$ git config --global user.name "SabadoCiber2023"
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023
+$ git config --global user.name
+SabadoCiber2023
+
+$ git config --global user.email
+SabadoCiber2023
+
+
+
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=SabadoCiber2023
+user.mail=i20212282@cibertec.edu.pe
+user.email=i20212282@cibertec.edu.pe
+
+
+
+
++++++++++++++++++++++++++++
+git init
+
+++++++++++++++
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (master)
+$ git reset
+deshce lo hecho por git add (staging area)
