@@ -82,6 +82,7 @@ $ git branch
   inicio
 * main
 
+<<<<<<< HEAD
 ++++++++++++++++++++++++++++++eliminar rama ++++++++++++++++++++++++++++
 
 janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
@@ -106,3 +107,5 @@ The most similar command is
         merge
 
 janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
+=======
+>>>>>>> backend
