@@ -55,3 +55,54 @@ git init
 janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (master)
 $ git reset
 deshce lo hecho por git add (staging area)
+
+
++++++++++++++++++++++++++++++++++++++++++++
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (master)
+$ git checkout -b inicio
+Switched to a new branch 'inicio'
+
+2 ramas actualmente
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (inicio)
+$ git branch
+* inicio
+  master
+
+
+  +++++++++++++++++++++++++++cambiar nombre de rama +++
+
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (master)
+$ git branch -m main
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
+$ git branch
+  final
+  inicio
+* main
+
+++++++++++++++++++++++++++++++eliminar rama ++++++++++++++++++++++++++++
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
+$ git branch -d inicio
+Deleted branch inicio (was 396039c).
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
+$ git branch
+  final
+* main
+
+
+
+
+++++++++++++++++++++++++++juntar ramas +++++++++++++++++++++++++++
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
+$ git mergge backend
+git: 'mergge' is not a git command. See 'git --help'.
+
+The most similar command is
+        merge
+
+janto@DESKTOP-PPKEJSK MINGW64 ~/OneDrive/Documentos/ciber/leng_prog2/clase071023 (main)
